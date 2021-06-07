@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--for fb icon-->
+
+    <title>testing random code lines </title>
+
+
+
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        tr,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body style="background-color:powderblue;">
+    <header>
+        <div>
+            <form action="/action_page.php">
+                <label for="Select a language">Select a language:</label>
+                <select name="Select a language" id="Select a language">
+                    <option value="English">English</option>
+                    <option value="Srpski">Srpski</option>
+                </select>
+                <br><br>
+            </form>
+        </div>
+
+        <img title="Mili Blog" src="https://i.imgur.com/TYEmYif.png"
+            alt="logo of Mili Blog in blue color with blue line above" height="200" class="center">
+
+
+        <div class="btn-group">
+            <button>Blogs</button>
+            <button>Log In</button>
+            <button>SignUp</button>
+            <button>test1</button>
+            <button>test1</button>
+            <button>test1</button>
+            <button>test1</button>
+            <button>test1</button>
+            <button>test1</button>
+            <button>test1</button>
+            <button>test1</button>
+        </div>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+
+
+        <p><a href="#C4">Jump to Chapter 4</a></p>
+
+
+
+
+
+        <a href="https://imgur.com/PqKrFTJ"><img src="https://i.imgur.com/PqKrFTJ.jpg" title="source: imgur.com"
+                width="1425" height="600" /></a>
+
+        <strong>This text is important!</strong>
+
+
+        <p>I will display &#128512; &#128516; &#128525; &#128151; &#8713; &#169;</p>
+
+        <section>
+            <p>This is a paragraph.</p>
+            <p>This is a paragraph.</p>
+        </section>
+
+
+
+
+        <article>"Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only
+            people
+            who never tumble are those who never mount the high wire. This is your moment. Own it."</article>
+
+        <aside>"Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only
+            people
+            who never tumble are those who never mount the high wire. This is your moment. Own it."
+        </aside>
+
+        <p>Some programming code:</p>
+
+        <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+        </code>
+        <h2 id="C4">Chapter 4</h2>
+        <p>This chapter explains ba bla bla</p>
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+        <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+
+        <p id="demo"></p>
+
+        <h2>Chapter 1</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 2</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 3</h2>
+        <p>This chapter explains ba bla bla</p>
+
+
+        <h1 id="myHeader">Hello World!</h1>
+        <button onclick="displayResult()">Change text</button>
+
+        <script>
+            function displayResult() {
+                document.getElementById("myHeader").innerHTML = "Have a nice day!";
+            }
+        </script>
+
+
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+
+
+
+        <table style="width:100%">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table><br><br><br><br>
+
+
+
+
+        <table style="width:100%">
+            <tr>
+                <th>number</th>
+                <th>number</th>
+                <th>number</th>
+            </tr>
+            <tr>
+                <td colspan="2">50</td>
+                <td>57</td>
+
+            </tr>
+            <tr>
+                <td>57</td>
+                <td rowspan="2">97</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>8676</th>
+
+                <td>786</th>
+            </tr>
+
+        </table>
+
+        <hr>
+
+        <form action="/action_page.php" target="_blank">
+            <!--za login i sign in-->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="submit">
+        </form><br><br>
+
+        <hr>
+
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" size="3">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+            <br><br>
+            <input type="submit">
+        </form><br><br>
+
+        <hr>
+
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button><br><br>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form><br><br>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </form><br><br>
+
+        <hr>
+
+        <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            0
+            <input type="range" id="a" name="a" value="50">
+            100 +
+            <input type="number" id="b" name="b" value="50">
+            =
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
+        </form><br><br>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+            <input type="submit" value="Submit">
+        </form> <br><br>
+
+
+        <hr>
+
+        <form action="/action_page.php">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <form action="/action_page.php">
+            <label for="datemin">Enter a date after 2000-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+            <label for="datemax">Enter a date before 1980-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <p><strong>Note:</strong> type="date" is not supported in Safari or Internet Explorer 11 (or earlier).</p>
+        <br><br>
+
+
+        <hr>
+
+        <form action="/action_page.php">
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <hr>
+
+        <form>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+        </form><br><br>
+
+        <hr>
+
+        <form>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+        </form><br><br>
+
+
+        <hr>
+        <form>
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+        </form><br><br>
+
+        <hr>
+
+
+        <form action="/action_page.php">
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <hr>
+
+
+        <form action="/action_page.php">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <hr>
+
+
+        <form action="/action_page.php">
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+
+        <hr>
+
+
+        <form action="/action_page.php">
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <hr>
+
+
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="red" stroke-width="15" fill="blue" />
+            Sorry, your browser does not support inline SVG.
+        </svg><br><br>
+
+        <svg width="400" height="180">
+            <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+        </svg><br><br>
+
+        <hr>
+
+
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe><br><br>
+
+
+
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+        </iframe><br><br>
+
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+        </iframe><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <hr>
+    <footer>
+
+
+        <div>
+            <ul>
+                <li><a href="About" target="_blank">About</a><br></li>
+
+                <li><a href="Terms of Service" target="_blank">Terms of Service</a><br></li>
+
+                <li><a href="Privacy" target="_blank">Privacy</a><br></li>
+
+                <li><a href="Content Policy" target="_blank">Content Policy</a><br><br><br></li>
+            </ul>
+
+            Contacts:<br>
+
+            <a href="https://www.facebook.com/milica.simovic.543/" target="_blank" class="fa fa-facebook"></a>
+
+            <a href="https://www.instagram.com/mili.sii/" target="_blank" class="fa fa-instagram"></a>
+
+            <a href="https://www.yahoo.com/" target="_blank" class="fa fa-yahoo"></a><br><br><br>
+
+
+            Email: simovicmilica67@gmail.com<br>
+            Author: Milica Simovic
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
