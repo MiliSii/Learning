@@ -6,21 +6,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.-->
-
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--for fb icon-->
 
-    <title>Mili Blog</title>
+    <title>Mili Blog - LogIn </title>
 
-
+    <link href="mystyle.css" rel="stylesheet" type="text/css" media="all">
 
 
 </head>
 
 <body style="background-color:powderblue;">
-    <header >
+    <header>
         <div>
             <form action="/action_page.php">
                 <label for="Select a language">Select a language:</label>
@@ -33,14 +31,14 @@
         </div>
 
         <img title="Mili Blog" src="https://i.imgur.com/TYEmYif.png"
-            alt="logo of Mili Blog in blue color with blue line above" height="200">
+            alt="logo of Mili Blog in blue color with blue line above" height="200" class="center">
 
 
         <div class="btn-group">
             <button>Blogs</button>
             <button>Log In</button>
             <button>SignUp</button>
-            <button>Click me</button>
+            <button>test1</button>
             <button>test1</button>
             <button>test1</button>
             <button>test1</button>
@@ -49,60 +47,34 @@
             <button>test1</button>
             <button>test1</button>
         </div>
-
-        <!--<audio controls>
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
-          </audio>
-          <iframe width="420" height="345" src="https://www.youtube.com/watch?v=QW9ZUsfZDpQ">
-          </iframe>-->
-
 
     </header>
 
     <hr>
 
     <main>
-        <h1>Just to remind myself</h1>
-        <!--<h1 style="border:2px solid white;">Just to remind myself</h1>-->
-
-
-        <div>"Every time you suppress some part of yourself or allow others to play you small, you are
-            ignoring
-            the owner’s manual your Creator gave you.What I know for sure is this: You are built not to shrink down to
-            less
-            but to blossom into more. To be more splendid. To be more extraordinary. To use every moment to fill
-            yourself
-            up."
-        </div>
-
         <div>
-            <h2>Inspirational quotes:</h2>
+            <h1>Sign Up</h1>
 
+            <p>Please fill in this form to log into account.</p>
+            <!--<hr>-->
 
-            <ul>
-                <li>"Where there is no struggle there is no strength."</li>
-                <li>"You look at yourself and you accept yourself for who you are, and once you accept yourself for who
-                    you are
-                    you become a better person."</li>
-                <li>"Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The
-                    only people
-                    who never tumble are those who never mount the high wire. This is your moment. Own it."</li>
-            </ul>
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter username" name="username" required><br><br>
 
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
 
-            <img title="Fearless Motivational Quote"
-                src="https://cdn.shopify.com/s/files/1/0070/7032/files/Fearless_Motivational_Quote_Desktop_Wallpaper_1.png?format=jpg&quality=90&v=1600450412"
-                alt="Success is not final; failure is not fatal: It is the courage to continue that counts. — Winston S. Churchill"
-                height="250">
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label><br><br>
+
+            <button type="submit" class="signupbtn">Sign In</button><br><br>
+
+            <p>Don't have an account? Go to: <a href="#" style="color:dodgerblue">SignUp</a>.</p>
         </div>
-
-
-
-
-        <hr>
     </main>
-
+    <hr>
     <footer>
 
 
@@ -124,7 +96,6 @@
             <a href="https://www.instagram.com/mili.sii/" target="_blank" class="fa fa-instagram"></a>
 
             <a href="https://www.yahoo.com/" target="_blank" class="fa fa-yahoo"></a><br><br><br>
-
 
 
             Email: simovicmilica67@gmail.com<br>
