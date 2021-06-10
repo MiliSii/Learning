@@ -1,7 +1,13 @@
+body{
+    background-color:powderblue;
+}
+
 #logo{
     height: 60px;
     width: auto;
 }
+
+
 
 #image{
    
@@ -42,7 +48,7 @@ h2 {
 
 p.date {
     text-align: justify;
-    font-family: 'Caveat', cursive;
+    font-family: 'Bree Serif', serif;
     line-height: 1.74;
     margin-bottom: 5px;
     margin: auto;
@@ -90,7 +96,6 @@ div {
     padding: 10px 25px;
     box-shadow: 0px 5px 15px rgb(8, 65, 221);
     background-color: white;
-
 }
 
 
@@ -205,7 +210,7 @@ ul.no-bullets {
   */
 #lista {
     text-align: justify;
-    font-family: 'Caveat', cursive;
+    font-family: 'Indie Flower', cursive;
     line-height: 1.74;
     margin-bottom: 5px;
     margin: auto;
@@ -227,3 +232,7 @@ li a {
     color: rgb(35, 23, 199);
     text-decoration:rgb(255, 255, 255);
 }
+
+#grad {
+    background-image: linear-gradient(rgb(190, 215, 231), rgb(231, 189, 222));
+  }
