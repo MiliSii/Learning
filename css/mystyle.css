@@ -18,11 +18,25 @@ h1 {
 
 }
 
+h2 {
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    line-height: 1.74;
+    margin-bottom: 5px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 54px;
+  }
 /*align the text(h1 title) to the center*/
 
-h2 {
-    text-align: left;
-}
+
 
 /*align the text(h2 title) to the left*/
 
@@ -30,7 +44,12 @@ p.date {
     text-align: justify;
     font-family: 'Caveat', cursive;
     line-height: 1.74;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 25px;
 }
 
 /*align the text(for paragraphs) */
@@ -64,9 +83,7 @@ div {
 }
 
 .main-header{
-   /*display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -77,12 +94,25 @@ div {
 }
 
 
- footer {
+footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 75px 25px;
-    background-color: lightblue;
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items:flex-start;
+    padding: 30px 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px rgb(8, 65, 221);
+
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    line-height: 1.5;
+
+    margin: auto;
+    width: auto;
+    height: 200px;
+    
 }
 
 
@@ -167,3 +197,33 @@ ul.no-bullets {
     margin: 0;
     padding: 0;
   }
+
+/*ul {
+    display: flex;
+    flex-direction:column;  
+}
+  */
+#lista {
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    line-height: 1.74;
+    margin-bottom: 5px;
+    margin: auto;
+    width: 60%;
+   
+    padding: 10px;
+
+  
+    text-align: justify;
+
+    font-size: 25px;
+}
+  
+ /* li:first-child {
+    margin-right: auto;
+  }*/
+  
+li a {
+    color: rgb(35, 23, 199);
+    text-decoration:rgb(255, 255, 255);
+}
