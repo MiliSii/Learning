@@ -8,8 +8,11 @@ body{
 }
 
 #logo{
-    height: 60px;
+    height: 70px;
     width: auto;
+    border: auto;
+    float: left;
+    
 }
 
 
@@ -18,7 +21,8 @@ body{
    
     width: 100%;
     max-width: 1000px;
-    margin: 24px auto;  
+    margin: 24px auto; 
+    
 }
 
 
@@ -93,14 +97,27 @@ div {
     font-size: 25px;
 }
 
+
+
 .main-header{
    
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction:row;
+    justify-content:space-between;
+     
+
     padding: 10px 25px;
     box-shadow: 0px 5px 15px rgb(8, 65, 221);
     background-color: white;
+    margin: auto;
+    width: auto;
+}
+
+.bGroup{
+    display: flex;
+    flex-direction: row;
+   
+  
 }
 
 

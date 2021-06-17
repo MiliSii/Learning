@@ -110,3 +110,14 @@ function color()
    
 }
 
+function reverseString(a) {
+  
+  var splitString = a.split(""); 
+   
+  var reverseArray = splitString.reverse();
+  
+  var joinArray = reverseArray.join(""); 
+  
+  return joinArray; 
+}
+

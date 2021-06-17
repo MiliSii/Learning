@@ -18,36 +18,24 @@
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
     </style>
-
+<script type="text/javascript" src="myScript.js"></script>
 
 </head>
 
 <body >
-    <header class="main-header" style="background-color: #ffffff;">
-        <img title="Mili Blog" src="https://i.imgur.com/TYEmYif.png"
-            alt="logo of Mili Blog in blue color with blue line above" id="logo">
+    <header style="background-color:rgb(255, 255, 255);" class="main-header">
+       
+        <img title="Mili Blog" src="https://i.imgur.com/TYEmYif.png" alt="logo of Mili Blog in blue color with blue line above" id="logo">
 
-        <!--
-        <div>
-            <form action="/action_page.php">
-                <label for="Select a language">Select a language:</label>
-                <select name="Select a language" id="Select a language">
-                    <option value="English">English</option>
-                    <option value="Srpski">Srpski</option>
-                </select>
-                <br><br>
-            </form>
-        </div>
-    -->
-
-
-
-        <div class="btn-group">
-            <button>Home</button>
+        <p class="btn-group">
+            <button >Home</button>
             <button>Blogs</button>
-            <button>Log In</button>
-            <button>SignUp</button>
-        </div>
+            <button id="call-to-action">Log In</button>
+            <button type="button" onclick="m()">SignUp</button>
+            <button id="bcolor" onclick="color()">You don't like color of button, click and try another?</button>
+        </p>
+
+        
 
     </header>
 
@@ -55,7 +43,7 @@
 
     <main logIn-signUp="border">
 
-        <h1>Log In</h1>
+        <h1 type="text" onclick="myClickHandler()">Log In</h1>
 
         <p class="date">Please fill in this form to log into account.</p>
         <!--<hr>-->
