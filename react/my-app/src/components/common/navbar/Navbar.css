@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    
+    color: inherit;
+    text-decoration:lightblue;
+    text-transform: uppercase;
+    outline:none;
+    background-color: #234bce;
+    /*border: 1px solid rgb(0, 0, 0);*/
+    padding: 5px 5px;
+    color: white;
+
+   
+    
+  }
