@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 import './Footer.css';
 
@@ -20,16 +22,18 @@ function Footer() {
 
         <p>Contacts:<br /><br />
 
-            <a href={"https://www.facebook.com/milica.simovic.543/"} target='_blank'  className="fa fa-facebook" rel="noopener noreferrer"></a>
+            <a href="https://www.facebook.com/milica.simovic.543/" target='_blank'   rel="noopener noreferrer"><SocialIcon url="https://facebook.com/jaketrent" /></a>
+            <span>&nbsp;&nbsp;</span> 
 
-            <a href={"https://www.instagram.com/mili.sii/"} target='_blank' className="fa fa-instagram" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.instagram.com/mili.sii/" target='_blank'  rel="noopener noreferrer"><SocialIcon url="https://instagram.com/jaketrent" /></a>
+            <span>&nbsp;&nbsp;</span> 
 
-            <a href={"https://login.yahoo.com/?.intl=us&.lang=en-US&src=ym&activity=mail-direct&pspid=159600001&done=https%3A%2F%2Fmail.yahoo.com%2Fd&add=1"}
-                 className="fa fa-yahoo" target='_blank' rel="noopener noreferrer">Yahoo mail</a><br /><br /><br />
-                
+            <a href="https://twitter.com/?lang=sr"  target='_blank' rel="noopener noreferrer" ><SocialIcon url="https://twitter.com/jaketrent" /></a>
+                <span>&nbsp;&nbsp;</span> 
+            <a href="https://www.linkedin.com/"  target='_blank' rel="noopener noreferrer" ><SocialIcon url="https://linkedin.com/jaketrent" /></a><br /><br /><br />    
         </p><br /><br />
 
-        <p> Email: sim*******7@gmail.com<br />
+        <p > Email: sim*******7@gmail.com<br />
             Author: Milica Simovic</p>
     </section>
   )

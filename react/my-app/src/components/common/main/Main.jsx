@@ -5,7 +5,7 @@ function Main() {
 
   return (
    <div>
-       <h1 type="text">Just to remind myself</h1>
+       <h1 >Just to remind myself</h1>
        <p class="date">"Every time you suppress some part of yourself or allow others to play you small, you are
             ignoring
             the owner’s manual your Creator gave you.What I know for sure is this: You are built not to shrink down to
