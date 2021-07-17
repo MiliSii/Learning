@@ -1,12 +1,12 @@
 import React from 'react';
-
+import './Main.css';
 function Main() {
 
 
   return (
    <div>
        <h1 >Just to remind myself</h1>
-       <p class="date">"Every time you suppress some part of yourself or allow others to play you small, you are
+       <p className="date">"Every time you suppress some part of yourself or allow others to play you small, you are
             ignoring
             the owner’s manual your Creator gave you.What I know for sure is this: You are built not to shrink down to
             less
@@ -15,7 +15,7 @@ function Main() {
             up."
         </p>
 
-        <h2 id="text" onclick="TextChange()">Inspirational quotes:</h2>
+        <h2 id="text" onClick="TextChange()">Inspirational quotes:</h2>
 
         <ul id="lista">
             <li>"Where there is no struggle there is no strength."</li>
@@ -28,11 +28,11 @@ function Main() {
         </ul>
 
         <img title="Fearless Motivational Quote"
-            src="https://cdn.shopify.com/s/files/1/0070/7032/files/Fearless_Motivational_Quote_Desktop_Wallpaper_1.png?format=jpg&quality=90&v=1600450412"
+            src={"https://cdn.shopify.com/s/files/1/0070/7032/files/Fearless_Motivational_Quote_Desktop_Wallpaper_1.png?format=jpg&quality=90&v=1600450412"}
             alt="Success is not final; failure is not fatal: It is the courage to continue that counts. — Winston S. Churchill"
             id="image"></img>
-
-   </div>
+</div>
+  
     
   )
 }

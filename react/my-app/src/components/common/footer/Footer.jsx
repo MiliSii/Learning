@@ -22,15 +22,15 @@ function Footer() {
 
         <p>Contacts:<br /><br />
 
-            <a href="https://www.facebook.com/milica.simovic.543/" target='_blank'   rel="noopener noreferrer"><SocialIcon url="https://facebook.com/jaketrent" /></a>
+            <a href="https://www.facebook.com/milica.simovic.543/" target='_blank' rel="noopener noreferrer"><SocialIcon url="https://facebook.com/jaketrent" /></a>
             <span>&nbsp;&nbsp;</span> 
 
-            <a href="https://www.instagram.com/mili.sii/" target='_blank'  rel="noopener noreferrer"><SocialIcon url="https://instagram.com/jaketrent" /></a>
+            <a href="https://www.instagram.com/mili.sii/" target='_blank' rel="noopener noreferrer"><SocialIcon url="https://instagram.com/jaketrent" /></a>
             <span>&nbsp;&nbsp;</span> 
 
-            <a href="https://twitter.com/?lang=sr"  target='_blank' rel="noopener noreferrer" ><SocialIcon url="https://twitter.com/jaketrent" /></a>
+            <a href="https://twitter.com/?lang=sr"  target='_blank' rel="noopener noreferrer"><SocialIcon url="https://twitter.com/jaketrent" /></a>
                 <span>&nbsp;&nbsp;</span> 
-            <a href="https://www.linkedin.com/"  target='_blank' rel="noopener noreferrer" ><SocialIcon url="https://linkedin.com/jaketrent" /></a><br /><br /><br />    
+            <a href="https://www.linkedin.com/" target='_blank' rel="noopener noreferrer"><SocialIcon url="https://linkedin.com/jaketrent" /></a><br /><br /><br />    
         </p><br /><br />
 
         <p > Email: sim*******7@gmail.com<br />

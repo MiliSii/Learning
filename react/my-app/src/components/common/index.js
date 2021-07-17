@@ -4,10 +4,11 @@ import Main from './main';
 import Footer from './footer';
 
 
+
 export {
   Header,
   Navbar,
   Main,
-  Footer,
+  Footer
  
 }

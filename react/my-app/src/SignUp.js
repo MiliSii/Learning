@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './LogIn-SignUp.css';
 
 
 function SignUp() {
     return (
-        <div >
+        <div className='date'>
 
 
             <form ><h1 >Sign Up</h1>
