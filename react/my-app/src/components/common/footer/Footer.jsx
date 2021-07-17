@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
+import { Link } from 'react-router-dom';
 
 import './Footer.css';
 
@@ -11,13 +12,13 @@ function Footer() {
       
       <ul className="no-bullets">
       
-            <li><a href="/About" target='_blank' rel="noopener noreferrer">About</a><br /></li>
+            <li><Link to="/About" target='_blank' rel="noopener noreferrer">About</Link><br /></li>
 
-            <li><a href="/TermsofService" target='_blank' rel="noopener noreferrer">Terms of Service</a><br /></li>
+            <li><Link to="/TermsofService" target='_blank' rel="noopener noreferrer">Terms of Service</Link><br /></li>
 
-            <li><a href="/Privacy" target='_blank' rel="noopener noreferrer">Privacy</a><br /></li>
+            <li><Link to="/Privacy" target='_blank' rel="noopener noreferrer">Privacy</Link><br /></li>
 
-            <li><a href="/ContentPolicy" target='_blank' rel="noopener noreferrer">Content Policy</a><br /></li>
+            <li><Link to="/ContentPolicy" target='_blank' rel="noopener noreferrer">Content Policy</Link><br /></li>
         </ul >
 
         <p>Contacts:<br /><br />
