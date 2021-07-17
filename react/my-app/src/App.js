@@ -10,6 +10,7 @@ import Privacy from './Privacy';
 import TermsofService from './TermsofService';
 import {Switch,Route} from 'react-router-dom';
 import Contact from './Contact';
+import Blogs from './Blogs';
 
 import './App.css';
 
@@ -29,7 +30,7 @@ function App() {
           <Route path='/SignUp' exact><SignUp /></Route>
           <Route path='/TermsofService' exact><TermsofService /></Route>
           <Route path='/Contact' exact><Contact /></Route>
-          
+          <Route path='/Blogs' exact><Blogs /></Route>
         </Switch>
 
 

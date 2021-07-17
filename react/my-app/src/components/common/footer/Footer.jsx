@@ -10,14 +10,14 @@ function Footer() {
    <section className='footer'>
       
       <ul className="no-bullets">
-            
+      
             <li><a href="/About" target='_blank' rel="noopener noreferrer">About</a><br /></li>
 
             <li><a href="/TermsofService" target='_blank' rel="noopener noreferrer">Terms of Service</a><br /></li>
 
             <li><a href="/Privacy" target='_blank' rel="noopener noreferrer">Privacy</a><br /></li>
 
-            <li><a href="/ContentPolicy" target='_blank' rel="noopener noreferrer">Content Policy</a><br /><br /><br /></li>
+            <li><a href="/ContentPolicy" target='_blank' rel="noopener noreferrer">Content Policy</a><br /></li>
         </ul >
 
         <p>Contacts:<br /><br />
