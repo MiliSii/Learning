@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+  .navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    
+    color:lightblue;
+    text-decoration:lightblue;
+    text-transform: uppercase;
+    /*font-family: 'Dancing script', cursive;*/
+    outline:none;
+    background-color: #234bce;
+    /*border: 1px solid rgb(0, 0, 0);*/
+    padding: 5px 5px;
+    color: white;
+   
+  }
+  .navbar-item:hover {
+    background-color: #6ab6ce;
+}

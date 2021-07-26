@@ -1,7 +1,7 @@
 import React from 'react';
-import './LogIn-SignUp.css';
 
-function LogIn() {
+
+export default function LogIn() {
     return (
         <div className='date'>
             <h1 type="text" >Log In</h1>
@@ -30,4 +30,3 @@ function LogIn() {
         </div>
      )
 }
- export default LogIn;
