@@ -40,19 +40,21 @@ function Bisque() {
   }
 
 
-//2. Get button component in the header, and add a click event listener (google it), and every time you click that button, console.log 'Clicked!'.
+//2. Get button component in the header, and add a click event listener, and every time you click that button, console.log 'Clicked!'.
   window.onload = () => {
 const button = document.getElementById('call-to-action');
-  
+    
     button.onclick = () => {
       console.log('Clicked!');
-    };
+    };//The onclick event occurs when the user clicks on an element.
+
     button.onmouseenter = () => {
-      console.log('hover above!');
-    };
+    console.log('hover above!');
+    };//The onmouseenter event occurs when the mouse pointer is moved onto an element.
+
     button.onmouseleave = () => {
       console.log('out of element!');
-    };
+    };//The onmouseleave event occurs when the mouse pointer is moved out of an element.
   };
 
 
@@ -109,6 +111,9 @@ function color()
    document.getElementById("bcolor").style.backgroundColor="#00FFFF";
    
 }
+
+
+
 
 function reverseString(a) {
   
