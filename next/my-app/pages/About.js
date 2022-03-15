@@ -17,7 +17,7 @@ export default function About(){
           <section className="main-header">
 
             <section className="header-top__logo">
-              <img src='/logo/TYEmYif.png' alt='Mili Blog' id='logo'></img>
+              <Image src='/logo/TYEmYif.png' alt='Mili Blog' id='logo'/>
             </section>
 
             <section className="header-top__navbar">

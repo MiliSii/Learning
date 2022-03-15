@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
 import React from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function SignUp() {
     return (
@@ -14,7 +14,7 @@ export default function SignUp() {
                     <section className="main-header">
 
                         <section className="header-top__logo">
-                            <img src='/logo/TYEmYif.png' alt='Mili Blog' id='logo'></img>
+                            <Image src='/logo/TYEmYif.png' alt='Mili Blog' id='logo'/>
                         </section>
 
                         <section className="header-top__navbar">
