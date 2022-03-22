@@ -6,11 +6,13 @@ router.get('/', function (req, res) {
     res.send("GetRequest for users!");
 }); /* /routes/users */
 
-router.get('/get-users-details', function (req, res) {
-    res.send("GetRequest for products  details!");
+router.get('/get-users-details/:id', function (req, res) {
+    res.send("GetRequest for user  details!" + req.params.id);
 }); /* /routes/users/get-users-details */
 
-
+router.get('/search-by-location/:state/:city', function (req, res) {
+    res.send("GetRequest for user adress details!" + req.params.state + req.params.city);
+}); /* /routes/users/get-users-details */
 
 
 router.get('/getUsers', function (req, res) {
