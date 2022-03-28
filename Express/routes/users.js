@@ -12,7 +12,11 @@ router.get('/get-users-details/:id', function (req, res) {
 
 router.get('/search-by-location/:state/:city', function (req, res) {
     res.send("GetRequest for user adress details!" + req.params.state + req.params.city);
-}); /* /routes/users/get-users-details */
+}); /* /routes/users/search-by-location/:state/:city */
+
+router.get('/search/:key([0-9]{4})', function (req, res) {
+    res.send("GetRequest for search!" + req.params.key);
+}); /* it will have 0-9 numbers and max 4 numbers*/
 
 
 router.get('/getUsers', function (req, res) {
