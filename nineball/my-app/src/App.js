@@ -11,7 +11,7 @@ import TermsofService from './TermsofService';
 import {Switch,Route} from 'react-router-dom';
 import Contact from './Contact';
 import Blogs from './Blogs';*/
-
+import Slider from './component/common/Slider/Slider';
 import {motion} from "framer-motion";
 import { useRef, useEffect, useState } from 'react';
 
@@ -25,7 +25,7 @@ function App() {
       
       <Main />
       
-     
+      <Slider />
       <Footer />
 
       

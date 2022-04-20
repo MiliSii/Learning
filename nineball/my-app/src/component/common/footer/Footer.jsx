@@ -1,5 +1,5 @@
 import React from 'react';
-import {GrFormLocation} from 'react-icons/gr';
+import {GoLocation} from 'react-icons/go';
 import {FaPhone} from 'react-icons/fa';
 import {WiTime8} from 'react-icons/wi';
 
@@ -16,7 +16,8 @@ function Footer() {
   return (
     <section className='footer'>
       
-        <p><GrFormLocation /> Sabac<br/>
+        <p>
+        <GoLocation /> Sabac<br/>
         <WiTime8 /> 20:00-02:00<br/>
         <FaPhone /> +381 64 1301440 <br/></p>
         
