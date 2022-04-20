@@ -1,6 +1,6 @@
 export const sliderData=[
-    {image:"photos/darts.jpeg" , heading: "Darts", desc:"opis hbdh"},
-    {image: "photos/dartsFront.jpg",  heading: "Darts", desc:"opis hbdh"},
-    {image: "photos/nine_ball.jpg",  heading: "Nineball", desc:"opis hbdh"}
+    {image: "photos/d.png",  heading: "Pikado", desc:""},
+    {image:"photos/darts.jpeg" , heading: "Pikado", desc:""},
+    {image: "photos/nine_ball.jpg",  heading: "Biliar", desc:""}
     //{image: "photos/darts1.png",  heading: "Nineball", desc:"opis hbdh"}
 ]/*dovrsi fajl */

@@ -20,7 +20,6 @@ function Header() {
 
         <selection>
           <motion.h3 animate={{x:400}}>Wellcome to Nineball.</motion.h3>
-
         </selection>
 
         <selection>
